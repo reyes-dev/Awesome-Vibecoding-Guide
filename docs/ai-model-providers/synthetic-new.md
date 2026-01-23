@@ -4,17 +4,24 @@ Synthetic.new is a privacy-first AI model provider offering access to frontier o
 
 ## My Role for Synthetic.new
 
-In my dual-provider workflow, **Synthetic.new is my secondary provider** that I switch to when I need model flexibility:
+In my provider setup, **Synthetic.new is my primary provider** offering access to MiniMax M2.1 alongside 20+ other models:
 
-- **MiniMax**: When I want variety or faster responses
-- **Kimi thinking**: When I'm stuck on complex problems requiring deep reasoning
-- **Default (GLM-4.6)**: I use [GLM Coding Plan](./glm-coding-plan.md) for everyday work
+- **MiniMax M2.1**: Fast, efficient coding assistance
+- **Kimi thinking**: Deep reasoning for complex problems
+- **GLM-4.6**: Reliable everyday coding
+- **20+ models**: Flexibility for any task
 
-**When to switch to Synthetic:**
-- GLM isn't giving the results you need after 2-3 attempts
-- You want a different model's perspective on a problem
-- You're working on complex architecture decisions (Kimi thinking)
-- You need faster responses for quick iterations (MiniMax)
+**When to use Synthetic.new vs direct MiniMax:**
+
+| Use Case | Recommended |
+|----------|-------------|
+| Model variety needed | Synthetic.new |
+| Privacy-first development | Synthetic.new |
+| Focused MiniMax usage | [MiniMax Coding Plan](./minimax-coding-plan.md) |
+| Multiple model experiments | Synthetic.new |
+| Dedicated MiniMax subscription | [MiniMax Coding Plan](./minimax-coding-plan.md) |
+
+Choose **Synthetic.new** for access to multiple models in one subscription. Choose **direct MiniMax** for focused, dedicated MiniMax access with competitive pricing.
 
 [Sign up with my referral for $10 first month](https://synthetic.new/?referral=IDyp75aoQpW9YFt)
 
@@ -47,7 +54,7 @@ In my dual-provider workflow, **Synthetic.new is my secondary provider** that I 
 
 - **All-inclusive pricing**: One flat monthly price includes all always-on models
 - **No weekly limits**: Only rate limits per 5-hour window
-- **Extensive model library**: 20+ frontier models including DeepSeek, Llama, Qwen, GLM, and MiniMax
+- **Extensive model library**: 20+ frontier models including MiniMax M2.1, DeepSeek, Llama, Qwen, GLM, and Kimi
 - **Privacy-first approach**: No worries about code privacy
 - **High-speed performance**: Up to 200 tokens per second
 - **Regular updates**: New models added frequently
@@ -76,7 +83,7 @@ Compared to alternatives like OpenRouter or Chutes.ai:
 - **Simplicity**: Single provider access to multiple models vs managing multiple services
 
 ### Model Innovation
-Synthetic.new frequently introduces new models like MiniMax M2, providing easy access to cutting-edge models alongside established ones like DeepSeek. This rapid model rollout keeps developers at the forefront of AI capabilities.
+Synthetic.new frequently introduces new models like MiniMax M2.1, providing easy access to cutting-edge models alongside established ones like DeepSeek and Kimi. This rapid model rollout keeps developers at the forefront of AI capabilities.
 
 The combination of privacy, performance, competitive pricing, and extensive model selection makes Synthetic.new an intriguing option for developers looking for a comprehensive AI model solution.
 

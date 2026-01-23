@@ -27,7 +27,7 @@ Especially in the world of frontier models being **expensive** - usually it make
   - **Native Integration**: GitHub Copilot
   - **Tools I Dropped**: Traycer • GitHub Speckit • OpenSpec • Cline • Roo Code (VSCode plugins)
 - [AI Model Providers 🤖](docs/ai-model-providers/README.md)
-  - **Primary Providers**: GLM Coding Plan • Synthetic.new
+  - **Primary Providers**: Synthetic.new • MiniMax Coding Plan • GLM Coding Plan
   - **Honorable Mentions**: Budget platforms (Chutes.ai • OpenRouter • nanoGPT • Factory AI) • Over-expensive options (Claude Subscription)
 - [Core Technologies 🧰](docs/core-technologies.md)
   - Astro • Tailwind CSS • Cloudflare Pages
@@ -122,8 +122,12 @@ Tip: Keep context lean. Link only relevant files in your prompts and use MCPs (e
 ## 🫶 Support the Author
 
 If you've found this guide helpful and want to support my work, consider using these referral links for the tools I recommend:
-- **[Synthetic.new](https://synthetic.new/?referral=IDyp75aoQpW9YFt)** - Privacy-first AI provider with 20+ frontier models. Standard plan $20/mo (save $10 with referral link), Pro $60/mo (save $20 with referral link)
-- **[GLM Coding Plan](https://z.ai/subscribe?ic=CUEFJ9ALMX)** - Cost-effective provider with generous 5h usage windows. Lite $3/mo (most users), Pro $15/mo (heavy usage). [Check current pricing](https://z.ai/subscribe?ic=CUEFJ9ALMX)
+
+- **[Synthetic.new](https://synthetic.new/?referral=IDyp75aoQpW9YFt)** - Primary provider with 20+ frontier models including MiniMax M2.1. Standard plan $20/mo, Pro $60/mo
+- **[MiniMax Coding Plan](https://minimax.chat/)** - Direct MiniMax subscription for focused usage. New Year Mega Offer available — check pricing page for current discounts!
+- **[GLM Coding Plan](https://z.ai/subscribe?ic=CUEFJ9ALMX)** - Cost-effective backup provider. Lite $3/mo, Pro $15/mo
+
+Choose Synthetic.new for model variety, or MiniMax for dedicated fast coding assistance.
 
 
 Using these links helps me continue maintaining and expanding this guide while you get access to excellent tools. No pressure though - the guide will always remain free and open source! ⭐

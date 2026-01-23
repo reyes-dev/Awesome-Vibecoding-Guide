@@ -6,37 +6,45 @@ A curated selection of AI model providers and services optimized for vibecoding 
 
 ## Primary AI Providers
 
-### My Dual-Provider Workflow
+### My Provider Setup
 
-I use both providers together for maximum effectiveness:
+I use multiple providers together for maximum effectiveness:
 
-1. **[GLM Coding Plan](./glm-coding-plan.md)** — Primary daily driver
-   - GLM-4.6 for most everyday coding tasks
-   - Reliable, fast, cost-effective
-   - [Sign up with 10% discount](https://z.ai/subscribe?ic=CUEFJ9ALMX)
-
-2. **[Synthetic.new](./synthetic-new.md)** — Secondary for model flexibility
-   - Switch to MiniMax when you want variety or faster responses
-   - Switch to Kimi thinking for complex reasoning problems
+1. **[Synthetic.new](./synthetic-new.md)** — Primary daily driver
+   - MiniMax M2.1 for fast, efficient coding
+   - 20+ models including Kimi, DeepSeek, GLM
+   - Privacy-first approach
    - [First month $10](https://synthetic.new/?referral=IDyp75aoQpW9YFt)
 
-### Why Two Providers?
+2. **[MiniMax Coding Plan](./minimax-coding-plan.md)** — Backup provider
+   - Direct MiniMax subscription for focused usage
+   - Competitive pricing with generous limits
+   - M2.1 and M2.1-Lightning models
+   - [Sign up](https://minimax.chat/)
 
-GLM gives you a reliable, cost-effective default. Synthetic gives you flexibility when you need different models:
+3. **[GLM Coding Plan](./glm-coding-plan.md)** — Secondary backup
+   - GLM-4.6 for reliable everyday coding
+   - Excellent value for heavy usage
+   - [10% discount](https://z.ai/subscribe?ic=CUEFJ9ALMX)
 
-- **Stuck on a problem?** Switch to Kimi thinking mode for deeper reasoning
-- **Want a fresh perspective?** Try MiniMax for a different approach
-- **Budget-conscious?** Stay on GLM for routine work
+### Why Multiple Providers?
+
+Synthetic.new serves as my primary provider because it offers MiniMax alongside 20+ other models in a single subscription. I keep additional providers as backups for specific scenarios:
+
+- **Direct MiniMax subscription**: When you want focused, dedicated MiniMax access
+- **GLM backup**: When you need a reliable fallback with different model characteristics
+- **Model variety**: Synthetic gives you flexibility without managing multiple accounts
 
 ### Budget Guide
 
 | Budget | Recommendation |
 |--------|----------------|
-| **$3-6/month** | GLM Lite — best value, sufficient for most users |
-| **$15-30/month** | GLM Pro — for heavy usage (600 prompts/5h) |
-| **$20/month (model variety)** | Synthetic Standard — when you need MiniMax/Kimi |
-| **$23-50/month (dual setup)** | GLM + Synthetic — optimal flexibility |
-| **$100/month (premium)** | Claude Code Max5 — if budget isn't a constraint |
+| **$10-20/month** | Synthetic Standard or MiniMax Starter — excellent starting points |
+| **$20-40/month** | Synthetic Pro or MiniMax Plus — for heavy usage |
+| **$40-60/month** | Synthetic Pro + MiniMax — maximum flexibility |
+| **$100+/month (premium)** | Claude Code Max5 — if budget isn't a constraint |
+
+**Note:** MiniMax is available through both direct subscription and [Synthetic.new](./synthetic-new.md). Choose based on whether you want model variety or focused MiniMax access.
 
 See the [detailed provider comparison](./choosing-your-provider.md) for comprehensive breakdown.
 
