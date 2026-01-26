@@ -8,7 +8,7 @@
 |------|----------|-----------------|------------|-------------------|
 | **Websites** | Beginners, quick wins | 1-2 weeks | Low | $1,500-3,000 |
 | **Automations** | Technical builders | 2-4 weeks | Medium | $3,000-8,000 |
-| **Micro-SaaS** | Product-minded devs | 1-3 months | High | $500-10,000+ |
+| **Micro-SaaS** | Experienced builders with clients | 1-2 weeks | Low-Medium | $500-2,000+ |
 
 ## Self-Assessment
 
@@ -17,22 +17,22 @@ Answer honestly:
 ### Skills
 - Can you build a basic website from a template? → Websites
 - Can you connect APIs and build workflows? → Automations
-- Can you ship a product and handle support? → Micro-SaaS
+- Can you ship and maintain software? → Micro-SaaS
 
 ### Available Time
 - 5-10 hours/week? → Websites (project-based)
 - 15-20 hours/week? → Automations (client work)
-- 20+ hours/week? → Micro-SaaS (building + marketing)
+- 15-20 hours/week? → Micro-SaaS (building + light support)
 
-### Risk Tolerance
-- Need cash flow now? → Websites
-- Can wait 1-2 months? → Automations
-- Can invest 3+ months before seeing returns? → Micro-SaaS
+### Prerequisites
+- Just starting out? → Websites
+- Have some dev skills? → Automations
+- Already have clients? → Micro-SaaS (upsell opportunity)
 
 ### Goals
 - Side income, low stress? → Websites
 - Replace job income? → Automations
-- Build an asset? → Micro-SaaS
+- Recurring revenue from existing clients? → Micro-SaaS
 
 ## Decision Tree
 
@@ -41,9 +41,11 @@ Do you need money in the next 2 weeks?
 ├── YES → Start with Websites
 └── NO → Do you have technical experience?
     ├── NO → Start with Websites (build skills)
-    └── YES → Do you want recurring revenue?
-        ├── YES, from clients → Automations
-        └── YES, from product → Micro-SaaS
+    └── YES → Do you already have clients?
+        ├── NO → Automations (build client base)
+        └── YES → Have you seen their pain points?
+            ├── YES → Micro-SaaS (upsell a tool)
+            └── NO → Automations (learn their workflows)
 ```
 
 ## Warning Signs by Path
@@ -59,9 +61,9 @@ Do you need money in the next 2 weeks?
 - Haven't built anything beyond tutorials
 
 ### Micro-SaaS — Watch Out If You:
-- Skip validation (build first, ask later)
-- Can't handle months without revenue
-- Hate marketing and sales
+- Don't have existing clients yet (start with websites/automations first)
+- Build features nobody asked for
+- Can't maintain software long-term (support burden)
 
 ## The Clear Recommendation
 
@@ -87,9 +89,9 @@ Your path isn't permanent. Many builders follow this progression:
 **Month 1-3**: Websites → Build skills, get clients, earn cash
 **Month 4-6**: Websites + Automations → Upsell existing clients
 **Month 6-12**: Automations → Higher value, recurring revenue
-**Year 2+**: Micro-SaaS → Use client insights for product ideas
+**Month 9+**: Micro-SaaS → Spot client pain, upsell tiny tools
 
-The best SaaS founders know their customers deeply. Client work teaches you that.
+The best Micro-SaaS opportunities come from client work. You don't need to find customers — you already have them.
 
 ---
 

@@ -24,10 +24,10 @@ Navigate related topics across the documentation. Use this guide to find connect
 ### Micro-SaaS Playbook
 | Topic | Related Docs |
 |-------|--------------|
-| Validation | [Validation First](../04-micro-saas-playbook/validation-first.md), [Reality Check](../04-micro-saas-playbook/reality-check.md) |
-| Building | [MVP Build System](../04-micro-saas-playbook/mvp-build-system.md), [Workflow](../05-delivery-system/workflow/README.md) |
-| Pricing | [Pricing Billing Churn](../04-micro-saas-playbook/pricing-billing-churn.md), [Pricing Fundamentals](../01-money-map/pricing-fundamentals.md) |
-| Tech | [Tech Stack](../07-tech-stack/README.md), [Hosting](../07-tech-stack/hosting/README.md) |
+| Finding Opportunities | [When to Build](../04-micro-saas-playbook/when-to-build.md), [Offer Design](../01-money-map/offer-design.md) |
+| Scoping & Pricing | [Scoping & Pricing](../04-micro-saas-playbook/scoping-pricing.md), [Pricing Fundamentals](../01-money-map/pricing-fundamentals.md) |
+| Building | [Building Tiny](../04-micro-saas-playbook/building-tiny.md), [Workflow](../05-delivery-system/workflow/README.md) |
+| Handoff & Support | [Client Handoff](../04-micro-saas-playbook/client-handoff.md), [Tech Stack](../07-tech-stack/README.md) |
 
 ## By Task
 
@@ -122,12 +122,13 @@ Navigate related topics across the documentation. Use this guide to find connect
 5. Scaling → Growth strategies
 ```
 
-### Service Provider → Product
+### Client Work → Recurring Revenue
 ```
-1. Micro-SaaS → Reality Check
-2. Validation First → Don't skip this
-3. MVP Build System → Build lean
-4. Pricing Billing Churn → Monetize
+1. Micro-SaaS → README (understand client-first approach)
+2. When to Build → Spot opportunities
+3. Scoping & Pricing → Propose and price
+4. Building Tiny → Build fast
+5. Client Handoff → Ship and support
 ```
 
 ---

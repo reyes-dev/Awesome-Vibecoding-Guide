@@ -10,7 +10,7 @@ This folder contains the complete "How to Make Money with Vibecoding" guide.
 | [01-money-map](01-money-map/) | Revenue streams overview |
 | [02-websites-playbook](02-websites-playbook/) | Local business websites (flagship) |
 | [03-automations-playbook](03-automations-playbook/) | AI automations for clients |
-| [04-micro-saas-playbook](04-micro-saas-playbook/) | Micro-SaaS products |
+| [04-micro-saas-playbook](04-micro-saas-playbook/) | Tiny tools for existing clients |
 | [05-delivery-system](05-delivery-system/) | Workflow, quality, prompting |
 | [06-tooling](06-tooling/) | Providers, agents, IDE, MCPs |
 | [07-tech-stack](07-tech-stack/) | Astro, Tailwind, Cloudflare |

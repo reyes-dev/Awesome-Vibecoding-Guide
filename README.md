@@ -24,10 +24,10 @@ A comprehensive guide drawn from real commercial projects and hundreds of thousa
 - Builds on development skills
 
 ### [3. Micro-SaaS](docs/04-micro-saas-playbook/README.md)
-**Product income. Higher risk, higher reward.**
-- Solve one specific pain point
-- Validation-first approach
-- Subscription revenue
+**Upsell tiny tools to existing clients.**
+- Solve one specific pain point for a client you already have
+- Client-first approach (no marketing needed)
+- Recurring revenue from known relationships
 
 ---
 

@@ -1,48 +1,102 @@
 # Micro-SaaS Playbook
 
-> Build small, focused software products that solve one pain point — validation-first approach.
+> Build small, focused tools that solve one pain point — for clients you already have.
 
-## What Is Micro-SaaS?
+## What Is Micro-SaaS (Our Way)?
 
-Small SaaS products with:
+Tiny software products built for existing clients:
 - **One core feature** — Solves one specific problem exceptionally well
+- **Client-funded** — Built for a client who already pays you
+- **Pain you've seen** — Not guessed, observed during delivery
 - **Low overhead** — You can run it solo or with minimal help
-- **Subscription revenue** — Monthly recurring income
-- **Niche focus** — Serves a specific audience, not everyone
 
-## Reality Check
+## The Client-First Difference
 
-Before diving in, understand:
-- ❌ Most SaaS ideas fail (validation is everything)
-- ❌ Building is the easy part; distribution is hard
-- ❌ Support burden can kill your time
-- ✅ Pre-selling validates before you build
-- ✅ Niche products can be very profitable
-- ✅ Vibecoding makes MVPs fast and cheap
+**Traditional SaaS thinking:**
+- Build a product → Find customers → Market and sell → Compete
+
+**Our approach:**
+- Deliver websites/automations → Observe client pain → Propose a tool → Get paid to build it
+
+You already have distribution. You already have trust. Skip the marketing.
+
+## When to Build Micro-SaaS
+
+Build when you notice a client:
+- Paying for expensive software they barely use
+- Managing something manually (spreadsheets, paper, phone calls)
+- Complaining about a tool that's too complex
+- Doing repetitive tasks that could be automated
+
+**Example:** Your car mechanic client uses a $200/month booking system but only needs:
+- Available time slots per day
+- Clients can book open slots
+- Admin can edit availability
+- Booked slots don't show
+
+Build that for $150/month. They save money. You earn recurring revenue.
 
 ## Playbook Contents
 
-1. **[Micro-SaaS Reality Check](reality-check.md)** — When to do it (and when not)
-2. **[Validation-First Workflow](validation-first.md)** — Pre-sell, waitlists, paid pilots
-3. **[MVP Build System](mvp-build-system.md)** — Thin vertical slice, constraints
-4. **[Pricing, Billing & Churn](pricing-billing-churn.md)** — Tiers, annual plans, churn control
+1. **[When to Build](when-to-build.md)** — Spotting opportunities in client work
+2. **[Scoping & Pricing](scoping-pricing.md)** — How to propose and price
+3. **[Building Tiny](building-tiny.md)** — Constraints that keep you profitable
+4. **[Client Handoff](client-handoff.md)** — Training, support, maintenance
 
-## The Validation-First Rule
+## The Economics
 
-**Never build before validating:**
-1. Find 10 people with the problem
-2. Get 3 of them to pay upfront (or commit)
-3. Only then build the MVP
+| Factor | Traditional SaaS | Client-First Micro-SaaS |
+|--------|-----------------|------------------------|
+| Finding customers | Hard (marketing) | Easy (you have them) |
+| Validation | Weeks/months | One conversation |
+| First revenue | 3-6 months | Immediately |
+| Risk | High | Low |
+| Support burden | Many strangers | One client you know |
 
-## Quick Stats
+### Typical Pricing
 
-- **Time to validate**: 1-4 weeks
-- **Time to MVP**: 2-4 weeks (after validation)
-- **Price range**: $9-99/month per user
-- **Break-even**: Usually 20-50 paying customers
+- **Setup fee**: $500-2,000 (one-time build)
+- **Monthly fee**: $50-300/month (hosting + support)
+- **Alternative**: Flat $100-500/month all-in
+
+Compare to what they're paying now. If they spend $200/month on Calendly/Acuity for basic booking, offer your simple version for $100/month.
+
+## Reality Check
+
+Micro-SaaS isn't for everyone:
+
+- ✅ You already have clients (websites, automations)
+- ✅ You've seen their pain points firsthand
+- ✅ You can build and maintain software
+- ✅ You want recurring revenue without marketing
+
+- ❌ You don't have clients yet → Start with websites
+- ❌ You want to compete in markets → Different guide
+- ❌ You can't handle ongoing support → Stick to projects
+
+## When NOT to Build
+
+- Client wants something complex (ERP, CRM, full app)
+- You'd need multiple customers to make it worthwhile
+- The pain point isn't causing real money loss
+- Off-the-shelf solutions work fine (don't reinvent)
+
+## The Progression
+
+Most builders follow this path:
+
+1. **Websites** → Build skills, get clients
+2. **Automations** → See their workflows, learn their pain
+3. **Micro-SaaS** → Propose tiny tools for problems you've observed
+
+The best Micro-SaaS ideas come from client work. You don't need to find customers — you need to listen to the ones you have.
 
 ## Technical Foundation
 
 - **[Delivery System](../05-delivery-system/README.md)** — Workflow, quality standards, prompting
 - **[Tooling](../06-tooling/README.md)** — Coding agents, providers, IDEs
 - **[Tech Stack](../07-tech-stack/README.md)** — Astro, Tailwind, Cloudflare platform
+
+---
+
+**Next**: [When to Build](when-to-build.md) — How to spot opportunities in client work.

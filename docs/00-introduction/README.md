@@ -44,7 +44,7 @@ With proper technique, even free/budget models deliver professional results.
 ### Pick a Revenue Stream
 1. **[Websites](../02-websites-playbook/README.md)** — Proven, quick to start
 2. **[Automations](../03-automations-playbook/README.md)** — Higher value, recurring revenue
-3. **[Micro-SaaS](../04-micro-saas-playbook/README.md)** — Product income, higher risk
+3. **[Micro-SaaS](../04-micro-saas-playbook/README.md)** — Upsell tiny tools to existing clients
 
 ### Learn the Delivery System
 The [Delivery System](../05-delivery-system/README.md) applies to every revenue stream:

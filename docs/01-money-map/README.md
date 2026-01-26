@@ -20,10 +20,10 @@ This guide covers three ways to generate income with vibecoding:
 - Builds on development skills
 
 ### 3. [Micro-SaaS](../04-micro-saas-playbook/README.md)
-**Best for experienced builders** — Product income, but higher risk.
-- Solve one specific pain point
-- Validation-first approach (pre-sell before building)
-- Subscription revenue
+**Best for experienced builders with clients** — Upsell tiny tools to existing clients.
+- Solve one specific pain point for a client you already have
+- Client-first approach (they already trust you)
+- Recurring revenue without marketing
 
 ## Choosing Your Path
 
@@ -31,13 +31,13 @@ This guide covers three ways to generate income with vibecoding:
 |--------|-----------------|-------------|------|------------|
 | Websites | 1-2 weeks | Beginner | Low | Optional |
 | Automations | 2-4 weeks | Intermediate | Medium | Yes |
-| Micro-SaaS | 1-3 months | Advanced | High | Yes |
+| Micro-SaaS | 1-2 weeks | Advanced + Clients | Low-Medium | Yes |
 
 ## Start Here
 
 1. **New to vibecoding?** → [Websites Playbook](../02-websites-playbook/README.md)
 2. **Have dev experience?** → [Automations Playbook](../03-automations-playbook/README.md)
-3. **Want product income?** → [Micro-SaaS Playbook](../04-micro-saas-playbook/README.md)
+3. **Have clients already?** → [Micro-SaaS Playbook](../04-micro-saas-playbook/README.md)
 
 ## Cross-Cutting Skills
 

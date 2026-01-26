@@ -48,14 +48,16 @@
 - SMS notifications ($50/month)
 - Multi-step email sequences ($200)
 
-### Micro-SaaS
+### Micro-SaaS (Client Upsell)
 
-**The "Contractor Quoting Tool"**
-- Itemized quote builder
-- PDF export
-- Client portal for approval
-- Basic analytics
-- **$29/month per user**
+**Simple Booking System for Your Mechanic Client**
+- Available time slots per day
+- Customers pick open slots
+- Admin manages availability
+- SMS/email notifications
+- **$150/month (replaces their $200/month Calendly)**
+
+Note: This isn't sold to "the market" — it's built for an existing client who already trusts you.
 
 ## How to Package Your Services
 

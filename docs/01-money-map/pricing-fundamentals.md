@@ -8,7 +8,7 @@
 |--------|-------|---------|
 | Websites | One-time | $500 per site |
 | Automations | Setup + Retainer | $800 setup + $100/month |
-| Micro-SaaS | Subscription | $29/month per user |
+| Micro-SaaS | Setup + Monthly | $800 setup + $150/month per client |
 
 ## Why Never Hourly
 
