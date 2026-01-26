@@ -100,9 +100,9 @@ claude configure
 
 ## Get Started
 
-**Special Offer:** Sign up using the referral link to receive New Year Mega Offer discounts!
+🎁 **New Year Mega Offer!** Invite friends and earn rewards for both! Exclusive 10% OFF for friends. Ready-to-use API vouchers for you!
 
-[Sign up for MiniMax Coding Plan](https://minimax.chat/?utm_source=awesome-vibecoding-guide)
+[Sign up for MiniMax Coding Plan](https://platform.minimax.io/subscribe/coding-plan?code=HO46LCwAJ5&source=link)
 
 ---
 
