@@ -39,9 +39,9 @@
 - See [Phase 0 tool selection](../workflow/phase-0-vibecoder-preparation.md) for upgrade timing
 
 **Integration Setup:**
-- [Droid CLI](../development-tools/recommended-tools/droid-cli.md) — Most efficient integration for planning and architecture
-- [Claude Code CLI](../development-tools/recommended-tools/claude-code-cli.md) — Fastest working combination
-- [Context7 MCP](../development-tools/mcp-servers/context7-mcp.md) — Documentation access during development
+- [Droid CLI](../coding-agents/droid-cli.md) — Most efficient integration for planning and architecture
+- [Claude Code CLI](../coding-agents/claude-code-cli.md) — Fastest working combination
+- [Context7 MCP](../mcp-servers/context7-mcp.md) — Documentation access during development
 
 **Workflow Phases by Usage:**
 
@@ -51,12 +51,11 @@
 
 **Phase 1 (Planning):**
 - Use for PRD refinement and feature breakdown
-- Combine with [OpenSpec CLI](../development-tools/recommended-tools/openspec-cli.md) for structured planning
 - Architecture discussions for [Core Technologies](../core-technologies.md) stack
 
 **Phase 2 (Development):**
 - Daily coding assistance and debugging
-- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp.md) integration for automated testing
+- [DevTools MCP](../mcp-servers/devtools-mcp.md) integration for automated testing
 - Component generation for Astro + Tailwind projects
 
 **Phase 3 (Testing & Debugging):**

@@ -23,17 +23,17 @@ Have in mind that you don't need frontier or State-Of-The-Art tools to deliver c
 ### Choose Your Stack Based on Budget
 
 #### FREE Option (Perfect for Getting Started)
-- **Coding Agent**: [Qwen CLI](../development-tools/honorable-mentions/qwen-coder.md) or [Gemini CLI](../development-tools/honorable-mentions/gemini-cli.md) (completely free)
-- **IDE**: [VS Code](https://code.visualstudio.com/) or [Zed](../development-tools/recommended-tools/zed.md) (both have excellent free versions)
-- **Documentation**: Browser-based research and free MCP servers / [OpenSpec CLI](../development-tools/recommended-tools/openspec-cli.md)
-- **AI Providers**: [Budget AI Options](../ai-model-providers/README.md#honorable-mentions) - Free tiers available
+- **Coding Agent**: [Qwen CLI](../../06-tooling/coding-agents/qwen-coder.md) or [Gemini CLI](../../06-tooling/coding-agents/gemini-cli.md) (completely free)
+- **IDE**: [VS Code](https://code.visualstudio.com/) or [Zed](../../06-tooling/ide/zed.md) (both have excellent free versions)
+- **Documentation**: Browser-based research and free MCP servers / [Clavix](../../06-tooling/recommended-tools/clavix.md)
+- **AI Providers**: [Budget AI Options](../../06-tooling/providers/README.md#honorable-mentions) - Free tiers available
 - **Total Cost**: $0/month
 
 #### Budget Option (Professional Grade) - RECOMMENDED
-- **Coding Agent**: [GLM Lite](../ai-model-providers/glm-coding-plan.md) ($3/mo - most users) or [Synthetic Standard](../ai-model-providers/synthetic-new.md) ($20/mo - model variety)
-- **IDE**: [Zed](../development-tools/recommended-tools/zed.md) with premium features
-- **Terminal**: [Warp](../development-tools/recommended-tools/warp.md) for enhanced productivity
-- **MCP Servers**: [Context7](../development-tools/mcp-servers/context7-mcp.md) + [DevTools](../development-tools/mcp-servers/devtools-mcp.md)
+- **Coding Agent**: [GLM Lite](../../06-tooling/providers/glm-coding-plan.md) ($3/mo - most users) or [Synthetic Standard](../../06-tooling/providers/synthetic-new.md) ($20/mo - model variety)
+- **IDE**: [Zed](../../06-tooling/ide/zed.md) with premium features
+- **Terminal**: [Warp](../../06-tooling/recommended-tools/warp.md) for enhanced productivity
+- **MCP Servers**: [Context7](../../06-tooling/mcp-servers/context7-mcp.md) + [DevTools](../../06-tooling/mcp-servers/devtools-mcp.md)
 - **Total Cost**: $3-20/month (main recommended range for optimal ROI)
 - **Note**: Start with GLM Lite ($3/mo). Upgrade to GLM Pro ($15/mo) only if you're a heavy user. [Check current pricing](https://z.ai/subscribe?ic=CUEFJ9ALMX)
 
@@ -220,7 +220,7 @@ Context management will save you more time and money than any tool upgrade. Star
 
 ### Tool Setup Problems
 **Issue:** Can't install or configure development tools
-- **Solution:** Check [Development Tools Setup](../development-tools/README.md) for detailed installation guides
+- **Solution:** Check [Development Tools Setup](../../06-tooling/README.md) for detailed installation guides
 - **See also:** [Troubleshooting Guide](../troubleshooting/README.md#tool-problems) for common installation issues
 
 ### Context Management Confusion
@@ -238,7 +238,7 @@ Context management will save you more time and money than any tool upgrade. Star
 **Issue:** Too many tools and approaches to choose from
 - **Solution:** Follow the [Free Option](#free-option-perfect-for-getting-started) stack first
 - **Upgrade only when:** You hit clear limitations in your workflow
-- **See also:** [Decision Matrix](../development-tools/decision-matrix.md) for tool selection
+- **See also:** [Decision Matrix](../../06-tooling/decision-matrix.md) for tool selection
 
 **For additional help:** Consult the [Comprehensive Troubleshooting Guide](../troubleshooting/README.md) for detailed solutions to common problems.
 

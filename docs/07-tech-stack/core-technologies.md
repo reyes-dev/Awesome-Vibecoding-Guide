@@ -3,17 +3,16 @@
 This guide explains the core stack I recommend for Vibecoding: Astro, Tailwind CSS and Cloudflare Pages (with Cloudflare Functions where needed). These tools are chosen for three practical goals: superb Core Web Vitals, fast developer feedback loops, and minimal operational friction (easy to host and maintain).
 
 Why Astro?
-- HTML-first SSG for great Core Web Vitals: Astro renders static HTML at build time by default, delivering minimal initial JavaScript and blazing-fast Time To First Byte (TTFB) and Largest Contentful Paint (LCP). [→ Performance Standards](docs/quality-standards/performance.md)
+- HTML-first SSG for great Core Web Vitals: Astro renders static HTML at build time by default, delivering minimal initial JavaScript and blazing-fast Time To First Byte (TTFB) and Largest Contentful Paint (LCP). [→ Performance Standards](../05-delivery-system/quality-standards/performance.md)
 - Island architecture: sprinkle interactivity with client-side frameworks only where needed (React, Svelte, Solid, etc.), so most pages remain lightweight.
 - Flexibility and interoperability: use React components (or other frameworks) inside Astro pages — you get the best of both static-first sites and modern interactivity.
-- Developer ergonomics: simple file-based routing, Markdown-friendly content collections, and a low-friction build process make it perfect for vibecoding sessions where you iterate quickly. [→ Prompting Guides](docs/prompting/README.md)
-- SEO & performance defaults: image optimizations, partial hydration, and small bundles are friendly to real-world SEO and Cumulative Layout Shift (CLS) improvements. [→ Performance Standards](docs/quality-standards/performance.md)
+- Developer ergonomics: simple file-based routing, Markdown-friendly content collections, and a low-friction build process make it perfect for vibecoding sessions where you iterate quickly. [→ Prompting Guides](../05-delivery-system/prompting/README.md)
+- SEO & performance defaults: image optimizations, partial hydration, and small bundles are friendly to real-world SEO and Cumulative Layout Shift (CLS) improvements. [→ Performance Standards](../05-delivery-system/quality-standards/performance.md)
 
 **Implementation Tools for Astro:**
-- [Zed IDE](docs/development-tools/recommended-tools/zed.md) — Optimized for Astro development workflows
-- [Droid CLI](docs/development-tools/recommended-tools/droid-cli.md) — Component generation and project scaffolding
-- [DevTools MCP](docs/development-tools/mcp-servers/devtools-mcp.md) — Core Web Vitals testing and performance optimization
-- [Phase 4: Deployment](docs/workflow/phase-4-deployment.md) — Step-by-step deployment guide
+- [Zed IDE](../06-tooling/ide/zed.md) — Optimized for Astro development workflows
+- [DevTools MCP](../06-tooling/mcp-servers/devtools-mcp.md) — Core Web Vitals testing and performance optimization
+- [Phase 4: Deployment](../05-delivery-system/workflow/phase-4-deployment.md) — Step-by-step deployment guide
 
 Why Tailwind CSS?
 - Predictable utility-first workflow: style directly in markup with small, composable utilities which speeds up design-to-implementation work.
@@ -22,9 +21,8 @@ Why Tailwind CSS?
 - Fast prototyping: build UIs quickly during a vibecoding session and iterate visually without switching between CSS files and markup.
 
 **Implementation Tools for Tailwind:**
-- [Shadcn MCP](docs/development-tools/mcp-servers/shadcn-mcp.md) — Professional UI component library
-- [Droid CLI](docs/development-tools/recommended-tools/droid-cli.md) — Component generation and styling assistance
-- [Phase 2: Development](docs/workflow/phase-2-development.md) — UI implementation workflows
+- [Shadcn MCP](../06-tooling/mcp-servers/shadcn-mcp.md) — Professional UI component library
+- [Phase 2: Development](../05-delivery-system/workflow/phase-2-development.md) — UI implementation workflows
 
 Why Cloudflare Pages (and Cloudflare Functions)?
 - Static hosting with global edge network: Pages serves generated HTML and assets from an edge CDN for minimal latency worldwide.
@@ -33,10 +31,10 @@ Why Cloudflare Pages (and Cloudflare Functions)?
 - Useful extras: turnstile integration for spam protection, easy deployment from Git, and quick preview workflows.
 
 **Implementation Tools for Cloudflare:**
-- [Hosting Tools Guide](docs/hosting-tools/README.md) — Complete Cloudflare platform overview
-- [Cloudflare Pages](docs/hosting-tools/cloudflare-pages.md) — Step-by-step deployment
-- [Cloudflare Functions](docs/hosting-tools/cloudflare-workers.md) — Serverless backend setup
-- [Phase 4: Deployment](docs/workflow/phase-4-deployment.md) — CI/CD and production workflow
+- [Hosting Tools Guide](./hosting/README.md) — Complete Cloudflare platform overview
+- [Cloudflare Pages](./hosting/cloudflare-pages.md) — Step-by-step deployment
+- [Cloudflare Functions](./hosting/cloudflare-workers.md) — Serverless backend setup
+- [Phase 4: Deployment](../05-delivery-system/workflow/phase-4-deployment.md) — CI/CD and production workflow
 
 How these three work together for Vibecoding
 - Build locally with minimal setup, iterate in seconds, and deploy globally with no ops headache.
@@ -45,10 +43,10 @@ How these three work together for Vibecoding
 - Ideal for portfolio sites, marketing sites, blogs, and small product UIs — everything that benefits from fast loads and easy updates.
 
 Concrete benefits you'll notice immediately
-- Lower bundle sizes and fewer runtime JS costs → better First Contentful Paint (FCP) and LCP. [→ Performance Standards](docs/quality-standards/performance.md)
-- Fewer layout shifts thanks to predictable styling and static rendering → better CLS. [→ Performance Standards](docs/quality-standards/performance.md)
-- Faster development iterations (hot reloading / quick builds) so you can focus on design, copy, and vibes. [→ Workflow Guide](docs/workflow/README.md)
-- Simple hosting & deployment: push to Git, let Cloudflare Pages serve optimized assets from the edge. [→ Hosting Tools](docs/hosting-tools/README.md)
+- Lower bundle sizes and fewer runtime JS costs → better First Contentful Paint (FCP) and LCP. [→ Performance Standards](../05-delivery-system/quality-standards/performance.md)
+- Fewer layout shifts thanks to predictable styling and static rendering → better CLS. [→ Performance Standards](../05-delivery-system/quality-standards/performance.md)
+- Faster development iterations (hot reloading / quick builds) so you can focus on design, copy, and vibes. [→ Workflow Guide](../05-delivery-system/workflow/README.md)
+- Simple hosting & deployment: push to Git, let Cloudflare Pages serve optimized assets from the edge. [→ Hosting Tools](./hosting/README.md)
 
 Integrations and common patterns
 - React components inside Astro for interactive widgets (forms, maps, media players).
@@ -77,42 +75,41 @@ When to consider something else
 ## Implementation Tools & Setup
 
 **Essential Development Tools for This Stack:**
-- [Zed IDE](docs/development-tools/recommended-tools/zed.md) — Optimized for Astro + Tailwind workflows
-- [Droid CLI](docs/development-tools/recommended-tools/droid-cli.md) — AI assistance for component generation
-- [DevTools MCP](docs/development-tools/mcp-servers/devtools-mcp.md) — Core Web Vitals testing and optimization
+- [Zed IDE](../06-tooling/ide/zed.md) — Optimized for Astro + Tailwind workflows
+- [DevTools MCP](../06-tooling/mcp-servers/devtools-mcp.md) — Core Web Vitals testing and optimization
 
 **Deployment Tools:**
-- [Cloudflare Pages](docs/hosting-tools/README.md) — Recommended hosting platform
-- [Cloudflare Functions](docs/hosting-tools/README.md) — Serverless endpoints for forms/APIs
+- [Cloudflare Pages](./hosting/cloudflare-pages.md) — Recommended hosting platform
+- [Cloudflare Functions](./hosting/cloudflare-workers.md) — Serverless endpoints for forms/APIs
 
 **AI Model Configuration:**
-- [GLM Coding Plan](docs/ai-model-providers/glm-coding-plan.md) — Recommended LLM for Astro development
-- [Budget Alternatives](docs/ai-model-providers/README.md#honorable-mentions) — Cost-effective options
+- [GLM Coding Plan](../06-tooling/providers/glm-coding-plan.md) — Recommended LLM for Astro development
+- [AI Providers](../06-tooling/providers/README.md) — Cost-effective options
 
 **Workflow Integration:**
-- [Phase 2: Development](docs/workflow/phase-2-development.md) — Practical implementation steps
-- [Phase 4: Deployment](docs/workflow/phase-4-deployment.md) — Production deployment guide
+- [Phase 2: Development](../05-delivery-system/workflow/phase-2-development.md) — Practical implementation steps
+- [Phase 4: Deployment](../05-delivery-system/workflow/phase-4-deployment.md) — Production deployment guide
 
 **Business Considerations:**
-- [Hosting Cost Optimization](docs/hosting-tools/README.md#cost-comparison) — 95% savings vs traditional hosting
-- [Client Project Setup](docs/hosting-tools/README.md#recommended-combinations) — Pre-configured stacks for different project types
+- [Hosting Overview](./hosting/README.md) — Cost optimization and platform overview
+- [Client Project Setup](./hosting/README.md#recommended-combinations) — Pre-configured stacks for different project types
 
 ## Implementation Setup Checklist
 
 **Phase 0 Preparation:**
-- [ ] Install [Zed IDE](docs/development-tools/recommended-tools/zed.md) for optimal Astro development
-- [ ] Set up [GLM Coding Plan](docs/ai-model-providers/glm-coding-plan.md) for cost-effective AI assistance
-- [ ] Configure [DevTools MCP](docs/development-tools/mcp-servers/devtools-mcp.md) for performance monitoring
+- [ ] Install [Zed IDE](../06-tooling/ide/zed.md) for optimal Astro development
+- [ ] Set up [GLM Coding Plan](../06-tooling/providers/glm-coding-plan.md) for cost-effective AI assistance
+- [ ] Configure [DevTools MCP](../06-tooling/mcp-servers/devtools-mcp.md) for performance monitoring
 
 **Phase 2 Development:**
-- [ ] Use [Droid CLI](docs/development-tools/recommended-tools/droid-cli.md) for component generation
-- [ ] Integrate [Shadcn MCP](docs/development-tools/mcp-servers/shadcn-mcp.md) for professional UI components
-- [ ] Test with [DevTools MCP](docs/development-tools/mcp-servers/devtools-mcp.md) throughout development
+- [ ] Use [Droid CLI](../06-tooling/coding-agents/droid-cli.md) for component generation
+- [ ] Integrate [Shadcn MCP](../06-tooling/mcp-servers/shadcn-mcp.md) for professional UI components
+- [ ] Test with [DevTools MCP](../06-tooling/mcp-servers/devtools-mcp.md) throughout development
 
 **Phase 4 Deployment:**
-- [ ] Deploy via [Cloudflare Pages](docs/hosting-tools/cloudflare-pages.md) for static hosting
-- [ ] Set up [Cloudflare Functions](docs/hosting-tools/cloudflare-workers.md) for backend logic
-- [ ] Monitor performance with [DevTools MCP](docs/development-tools/mcp-servers/devtools-mcp.md)
+- [ ] Deploy via [Cloudflare Pages](../06-tooling/hosting/cloudflare-pages.md) for static hosting
+- [ ] Set up [Cloudflare Functions](../06-tooling/hosting/cloudflare-workers.md) for backend logic
+- [ ] Monitor performance with [DevTools MCP](../06-tooling/mcp-servers/devtools-mcp.md)
 
 ---
 

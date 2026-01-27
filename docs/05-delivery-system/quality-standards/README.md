@@ -8,9 +8,9 @@ Ensuring professional-grade quality in your vibecoding projects. This section co
 - Professional reputation
 - Client satisfaction and referrals
 - Competitive advantage
-- **Justifies your pricing** - See [Business Model: Pricing & Economics](../business-model/pricing-economics.md)
+- **Justifies your pricing** - See [Business Model: Pricing & Economics](../../02-websites-playbook/pricing-economics.md)
 - Reduces support issues
-- **Higher profit margins** - Quality work commands premium rates ([Value Proposition](../business-model/value-proposition.md))
+- **Higher profit margins** - Quality work commands premium rates ([Value Proposition](../../02-websites-playbook/value-proposition.md))
 
 **For Your Clients:**
 - Better Google rankings (SEO + Performance)
@@ -668,7 +668,7 @@ This differentiates you from competitors and justifies your pricing.
 **Related Documentation:**
 - [Quality-Focused Prompts](../prompting/quality-focused-prompts.md) - AI prompts for professional output
 - [Testing Strategy](../workflow/phase-3-testing-debugging.md) - Quality assurance testing
-- [Client Management](../business-model/client-management.md) - Communicating quality value
-- [Core Technologies](../core-technologies.md) - Astro performance benefits
+- [Client Management](../../02-websites-playbook/client-management.md) - Communicating quality value
+- [Core Technologies](../../07-tech-stack/core-technologies.md) - Astro performance benefits
 
 **Back to:** [Main Guide](../../README.md)

@@ -58,7 +58,7 @@ Context used: 20k tokens (90% savings)
 - ✅ Zero context cost after initial read
 
 **Examples in the wild:**
-- **openspec tool**: Writes feature proposals to .md files
+- **Clavix**: Writes feature proposals to .md files
 - **droid CLI**: Plan mode → creates .md → Act mode reads it
 - **Claude Code**: Plan mode can output to .md before execution
 - **All agents**: Can read/write .md for persistent memory
@@ -300,7 +300,7 @@ droid act .tasks/auth-feature.md
 Use planning tools or manual writing:
 ```
 Options:
-- openspec tool → generates proposal.md
+- Clavix → generates proposal.md
 - droid CLI → plan mode creates .tasks/*.md
 - Claude Code → plan mode, then save to .md
 - Manual → write docs/plans/feature.md yourself
@@ -335,7 +335,7 @@ How do we know it's done?
 
 ```
 docs/
-├── plans/           # Feature plans (openspec output)
+├── plans/           # Feature plans (Clavix output)
 ├── proposals/       # Design proposals
 ├── decisions/       # ADRs (Architecture Decision Records)
 └── tasks/           # Active work breakdown
@@ -425,7 +425,7 @@ Same cost whether you reference once or 100 times!
 
 | Tool | How It Uses .md |
 |------|----------------|
-| **openspec** | Generates proposals in .md format |
+| **Clavix** | Generates proposals in .md format |
 | **droid CLI** | Plan mode → .md → Act mode |
 | **Claude Code** | Manual .md writing, plan mode output |
 | **Windsurf** | Cascade references documentation |
@@ -801,7 +801,7 @@ project/
 │   │   ├── api-design.md
 │   │   └── database-design.md
 │   │
-│   ├── plans/                 # Feature plans (openspec output)
+│   ├── plans/                 # Feature plans (Clavix output)
 │   │   ├── auth-feature.md
 │   │   └── payment-integration.md
 │   │
@@ -1352,7 +1352,7 @@ MCPs have overhead; direct file reads are better for project files.
 ### Before Starting Work
 
 - [ ] **Write a plan/proposal to .md**
-  - Use openspec, droid plan, or manual writing
+  - Use Clavix, droid plan, or manual writing
   - Structure: problem → approach → tasks
   - Save to docs/plans/ or docs/proposals/
 
@@ -1489,7 +1489,7 @@ Total: ~195k tokens, inconsistent implementation, context pain
 **With .md-based approach:**
 ```
 Session 1:
-You: "Let's plan user auth. Use openspec to create proposal."
+You: "Let's plan user auth. Use Clavix to create proposal."
 Agent: *Writes docs/plans/auth-feature.md*
 [Planning: 5k tokens]
 
@@ -1747,17 +1747,17 @@ Do I need external data?
 
 **Phase 1: Planning**
 - Context management for [PRD and specification management](../workflow/phase-1-planning.md)
-- [OpenSpec CLI](../development-tools/recommended-tools/openspec-cli.md) integration for plan externalization
+- [Clavix](../../06-tooling/recommended-tools/clavix.md) integration for plan externalization
 - Architecture decisions documented in [docs/decisions/](./#file-organization-for-context-management) for future reference
 
 **Phase 2: Development**
-- [Droid CLI](../development-tools/recommended-tools/droid-cli.md) plan/act workflow utilizing .md files
+- [Droid CLI](../../06-tooling/recommended-tools/droid-cli.md) plan/act workflow utilizing .md files
 - Feature-by-feature context management per [development workflow](../workflow/phase-2-development.md#feature-by-feature-implementation)
-- [Zed IDE](../development-tools/recommended-tools/zed.md) auto-compression and workflow management
+- [Zed IDE](../../06-tooling/recommended-tools/zed.md) auto-compression and workflow management
 
 **Phase 3: Testing & Debugging**
 - Debug context and error tracking for [comprehensive testing](../workflow/phase-3-testing-debugging.md)
-- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp.md) externalizes browser debugging context
+- [DevTools MCP](../../06-tooling/mcp-servers/devtools-mcp.md) externalizes browser debugging context
 - Session handoffs between debugging sessions using [docs/context/](./#session-handoffs) pattern
 
 **Phase 4: Deployment**
@@ -1770,7 +1770,7 @@ Do I need external data?
 **Context7 MCP**
 - Externalizes framework documentation to reduce context usage
 - Integrates with [Core Technologies](../core-technologies.md) implementation
-- Saves context for [AI Model Providers](../ai-model-providers/README.md) during architecture discussions
+- Saves context for [AI Model Providers](../../06-tooling/providers/README.md) during architecture discussions
 
 **Task Manager MCP**
 - Persistent task management across [workflow phases](../workflow/)
@@ -1783,11 +1783,11 @@ Do I need external data?
 - Integration with [planning workflows](../workflow/phase-1-planning.md)
 
 **MCP Server Context Optimization:**
-- [Context7 MCP](../development-tools/mcp-servers/context7-mcp.md) — Framework documentation externalization
-- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp.md) — Browser debugging context management
-- [Task Manager MCP](../development-tools/mcp-servers/task-manager-mcp.md) — Persistent workflow context
-- [Sequential Thinking MCP](../development-tools/mcp-servers/sequential-thinking-mcp.md) — Problem-solving context
-- [Shadcn MCP](../development-tools/mcp-servers/shadcn-mcp.md) — UI component context for [Phase 2 development](../workflow/phase-2-development.md)
+- [Context7 MCP](../../06-tooling/mcp-servers/context7-mcp.md) — Framework documentation externalization
+- [DevTools MCP](../../06-tooling/mcp-servers/devtools-mcp.md) — Browser debugging context management
+- [Task Manager MCP](../../06-tooling/mcp-servers/task-manager-mcp.md) — Persistent workflow context
+- [Sequential Thinking MCP](../../06-tooling/mcp-servers/sequential-thinking-mcp.md) — Problem-solving context
+- [Shadcn MCP](../../06-tooling/mcp-servers/shadcn-mcp.md) — UI component context for [Phase 2 development](../workflow/phase-2-development.md)
 
 **Business Strategy Integration:**
 - [Client project handover](./#client-project-considerations) using context management best practices
@@ -1804,6 +1804,6 @@ Do I need external data?
 **Back to:** [Top-level README](../../README.md)
 
 **Related:**
-- [Development Tools](../development-tools/)
+- [Development Tools](../../06-tooling/)
 - [Core Technologies](../core-technologies.md)
 - [Workflow](../workflow/)

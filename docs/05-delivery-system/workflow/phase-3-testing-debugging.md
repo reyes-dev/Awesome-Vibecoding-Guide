@@ -967,22 +967,22 @@ Default assumption: **85% mobile traffic** until client data says otherwise.
 **Requires completion of:**
 - [Phase 2: Development](./phase-2-development.md) — All features implemented and committed
 - [Core Technologies setup](../core-technologies.md) — Astro + Tailwind + Cloudflare stack configured
-- [Development Tools](../development-tools/README.md) — DevTools MCP and testing tools configured
+- [Development Tools](../../06-tooling/README.md) — DevTools MCP and testing tools configured
 
 **Prepares for:**
 - [Phase 4: Deployment](./phase-4-deployment.md) — Production deployment and CI/CD setup
-- [Hosting Tools](../hosting-tools/README.md) — Cloudflare infrastructure configuration
+- [Hosting Tools](../../06-tooling/hosting/README.md) — Cloudflare infrastructure configuration
 - [Business strategy](../introduction/README.md) — Client delivery and maintenance
 
 **Related Reading:**
 - [Context Management](../context-management/README.md) — Debug context and error tracking
-- [AI Model Providers](../ai-model-providers/README.md) — Optimization for debugging tasks
-- [Development Tools: DevTools MCP](../development-tools/mcp-servers/devtools-mcp.md) — Advanced testing capabilities
+- [AI Model Providers](../../06-tooling/providers/README.md) — Optimization for debugging tasks
+- [Development Tools: DevTools MCP](../../06-tooling/mcp-servers/devtools-mcp.md) — Advanced testing capabilities
 
 **Testing Integration:**
-- Automated testing via [DevTools MCP](../development-tools/mcp-servers/devtools-mcp.md) for comprehensive debugging
+- Automated testing via [DevTools MCP](../../06-tooling/mcp-servers/devtools-mcp.md) for comprehensive debugging
 - Manual testing following [Phase 2 practices](./phase-2-development.md#manual-testing)
-- Code review using [AI Model Providers](../ai-model-providers/README.md) for quality analysis
+- Code review using [AI Model Providers](../../06-tooling/providers/README.md) for quality analysis
 
 ---
 

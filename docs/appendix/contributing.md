@@ -88,8 +88,8 @@ Examples:
 [Descriptive link text](../path/to/document.md#specific-section) — For targeted information
 
 Examples:
-- [Phase 0 tool selection](../workflow/phase-0-vibecoder-preparation.md#tool-setup) — Setup details
-- [Free alternatives](../ai-model-providers/README.md#honorable-mentions) — Budget options
+- [Phase 0 tool selection](../05-delivery-system/workflow/phase-0-vibecoder-preparation.md#tool-setup) — Setup details
+- [Free alternatives](../06-tooling/providers/README.md#honorable-mentions) — Budget options
 - [Cost optimization](../workflow/phase-0-vibecoder-preparation.md#cost-effective-development-strategy) — Money-saving tips
 ```
 
@@ -98,9 +98,9 @@ Examples:
 [Tool mentions](../development-tools/tool-name.md) — For detailed tool information
 
 Examples:
-- [Zed IDE](../development-tools/recommended-tools/zed.md) — Primary development environment
-- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp.md) — Testing and debugging
-- [GLM Coding Plan](../ai-model-providers/glm-coding-plan.md) — Main AI provider
+- [Zed IDE](../06-tooling/ide/zed.md) — Primary development environment
+- [DevTools MCP](../06-tooling/mcp-servers/devtools-mcp.md) — Testing and debugging
+- [GLM Coding Plan](../06-tooling/providers/glm-coding-plan.md) — Main AI provider
 ```
 
 **4. Concept Links**
@@ -110,7 +110,7 @@ Examples:
 Examples:
 - [Context management](../context-management/README.md) — Efficient workflow practices
 - [Vibecoding philosophy](../introduction/philosophy.md) — Core principles
-- [MCP servers](../development-tools/README.md#mcp-servers) — Tool integrations
+- [MCP servers](../06-tooling/mcp-servers/README.md) — Tool integrations
 ```
 
 ### Cross-Reference Quality Checklist
@@ -141,8 +141,8 @@ Examples:
 - [Related Phase](../workflow/phase-y-name.md) — Dependencies and connections
 
 **Budget Considerations:**
-- [Cost comparison](../ai-model-providers/README.md#pricing) — Financial impact
-- [Free alternatives](../development-tools/honorable-mentions/README.md) — Budget options
+- [Cost comparison](../06-tooling/providers/README.md#pricing) — Financial impact
+- [Free alternatives](../06-tooling/coding-agents/README.md) — Budget options
 ```
 
 **Workflow Cross-Phase Integration:**
@@ -152,7 +152,7 @@ Examples:
 **Requires completion of:**
 - [Previous Phase](../workflow/phase-x-previous.md) — What's needed first
 - [Setup documentation](../path/to/setup.md) — Prerequisites
-- [Tool configuration](../development-tools/README.md) — Environment preparation
+- [Tool configuration](../06-tooling/README.md) — Environment preparation
 
 **Prepares for:**
 - [Next Phase](../workflow/phase-y-next.md) — What comes next
@@ -247,17 +247,13 @@ docs/
 │   ├── phase-2-development.md
 │   ├── phase-3-testing-debugging.md
 │   └── phase-4-deployment.md
-├── development-tools/        # Tool documentation
+├── 06-tooling/               # Tool documentation
 │   ├── README.md
-│   ├── recommended-tools/
+│   ├── ide/
+│   ├── coding-agents/
 │   ├── mcp-servers/
-│   └── honorable-mentions/
-├── ai-model-providers/       # AI service documentation
-│   ├── README.md
-│   ├── glm-coding-plan.md
-│   ├── synthetic-new.md
-│   ├── factory-ai.md
-│   └── honorable-mentions/
+│   ├── providers/
+│   └── hosting/
 ├── core-technologies.md      # Tech stack recommendations
 ├── hosting-tools/           # Infrastructure guide
 │   └── README.md

@@ -16,16 +16,18 @@ I use multiple providers for redundancy:
 
 1. **Synthetic.new** — Primary (MiniMax + 20 other models in one sub)
 2. **MiniMax Direct** — Backup for focused MiniMax usage
-4. **GLM** — Secondary backup with different model characteristics
+3. **GLM** — Secondary backup with different model characteristics
 
 ## Budget Guide
 
 | Monthly Budget | Recommendation |
 |----------------|----------------|
-| **$0-10** | GLM Lite |
-| **$10-20** | Synthetic Standard |
+| **$0-10** | Free tools (Qwen CLI) or GLM Lite ($3/mo) |
+| **$10-20** | Synthetic Standard ($20/mo) - RECOMMENDED |
 | **$20-40** | Synthetic Pro or MiniMax Plus |
 | **$40-60** | Synthetic Pro + MiniMax backup |
+
+**Key insight:** $0-20/month is the optimal ROI range. Premium tiers ($40+) are for experimentation only.
 
 ## Choosing Your Provider
 

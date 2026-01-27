@@ -1000,8 +1000,8 @@ Best regards,
 - [Git Strategies](../workflow/git-strategies.md) - Quick deployment workflows
 
 **Tools for Efficient Maintenance:**
-- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp.md) - Rapid testing
-- [Context Management](../context-management/README.md) - Quick project context loading
-- [Prompting Templates](../prompting/template-library.md) - Reusable maintenance prompts
+- [DevTools MCP](../06-tooling/mcp-servers/devtools-mcp.md) - Rapid testing
+- [Context Management](../05-delivery-system/context-management/README.md) - Quick project context loading
+- [Prompting Templates](../05-delivery-system/prompting/template-library.md) - Reusable maintenance prompts
 
 **Back to:** [Business Model Overview](./README.md)

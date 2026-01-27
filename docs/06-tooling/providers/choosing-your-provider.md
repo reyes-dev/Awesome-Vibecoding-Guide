@@ -121,8 +121,8 @@ When you have access to multiple models (via Synthetic.new or multiple providers
 - Testing vibecoding workflows
 
 **Integration:**
-- Works excellently with [Claude Code CLI](../development-tools/recommended-tools/claude-code-cli.md)
-- Most efficient with [Droid CLI](../development-tools/recommended-tools/droid-cli.md) for planning
+- Works excellently with [Claude Code CLI](../coding-agents/claude-code-cli.md)
+- Most efficient with [Droid CLI](../coding-agents/droid-cli.md) for planning
 
 **When to upgrade:** If you find yourself consistently hitting the 120 prompts/5h limit across multiple sessions
 
@@ -401,17 +401,17 @@ For detailed information about each provider:
 **Claude Code CLI:**
 - Works with all providers via API configuration
 - Fastest with GLM according to testing
-- See [Claude Code CLI setup](../development-tools/recommended-tools/claude-code-cli.md)
+- See [Claude Code CLI setup](../coding-agents/claude-code-cli.md)
 
 **Droid CLI:**
 - Most efficient planning architecture
 - Best results with GLM Coding Plan
-- See [Droid CLI setup](../development-tools/recommended-tools/droid-cli.md)
+- See [Droid CLI setup](../coding-agents/droid-cli.md)
 
 **MCP Servers:**
-- [Context7 MCP](../development-tools/mcp-servers/context7-mcp.md) — Documentation access
-- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp.md) — Browser automation
-- [Sequential Thinking MCP](../development-tools/mcp-servers/sequential-thinking-mcp.md) — Enhanced reasoning
+- [Context7 MCP](../mcp-servers/context7-mcp.md) — Documentation access
+- [DevTools MCP](../mcp-servers/devtools-mcp.md) — Browser automation
+- [Sequential Thinking MCP](../mcp-servers/sequential-thinking-mcp.md) — Enhanced reasoning
 
 All providers work with standard MCP servers through their APIs.
 
@@ -478,7 +478,6 @@ Remember: With proper vibecoding technique, the quality gap between providers na
 
 **Next Steps:**
 - [Phase 0: Vibecoder Preparation](../workflow/phase-0-vibecoder-preparation.md) — Tool selection guide
-- [Development Tools Overview](../development-tools/README.md) — IDE and CLI setup
 - [Core Technologies](../core-technologies.md) — Tech stack recommendations
 
 Back: [AI Model Providers](./README.md)

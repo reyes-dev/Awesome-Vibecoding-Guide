@@ -1,4 +1,4 @@
-# Synthetic.new — Secondary Provider for Model Flexibility
+# Synthetic.new — Primary Provider for Model Flexibility
 
 Synthetic.new is a privacy-first AI model provider offering access to frontier open-source models with competitive pricing and impressive performance.
 
@@ -97,9 +97,9 @@ The combination of privacy, performance, competitive pricing, and extensive mode
 - [Phase 3: Testing & Debugging](../workflow/phase-3-testing-debugging.md) - Secure debugging sessions
 
 **Privacy-First Workflows:**
-- [Droid CLI](../development-tools/recommended-tools/droid-cli.md) — Private coding assistance
-- [Context7 MCP](../development-tools/mcp-servers/context7-mcp.md) — Secure documentation access
-- [Octofriend CLI](../development-tools/honorable-mentions/octofriend.md) — Tested integration
+- [Droid CLI](../coding-agents/droid-cli.md) — Private coding assistance
+- [Context7 MCP](../mcp-servers/context7-mcp.md) — Secure documentation access
+- [Octofriend CLI](../coding-agents/octofriend.md) — Tested integration
 
 **Budget Comparison:**
 - Compare with [GLM Coding Plan](glm-coding-plan.md) for cost analysis
@@ -107,8 +107,8 @@ The combination of privacy, performance, competitive pricing, and extensive mode
 - See [Phase 0 tool selection](../workflow/phase-0-vibecoder-preparation.md) for upgrade timing
 
 **Performance Integration:**
-- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp.md) — Testing with fast 200 tokens/sec response
-- [Sequential Thinking MCP](../development-tools/mcp-servers/sequential-thinking-mcp.md) — Enhanced problem-solving with multiple models
+- [DevTools MCP](../mcp-servers/devtools-mcp.md) — Testing with fast 200 tokens/sec response
+- [Sequential Thinking MCP](../mcp-servers/sequential-thinking-mcp.md) — Enhanced problem-solving with multiple models
 
 ## Get Started
 

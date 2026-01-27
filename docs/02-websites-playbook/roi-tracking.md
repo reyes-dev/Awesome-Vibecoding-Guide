@@ -851,7 +851,7 @@ Goal: Maximize profit, not use "best" tools.
 **Related Documentation:**
 - [Client Management](./client-management.md) - Managing profitable client relationships
 - [Maintenance](./maintenance.md) - Ongoing revenue strategies
-- [Tool Selection Decision Matrix](../development-tools/decision-matrix.md) - Choosing the right tools
-- [Philosophy](../introduction/philosophy.md) - Tool selection principles
+- [Tooling Overview](../06-tooling/README.md) - Choosing the right tools
+- [Philosophy](../00-introduction/philosophy.md) - Tool selection principles
 
 **Back to:** [Business Model Overview](./README.md)

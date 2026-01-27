@@ -56,9 +56,9 @@ MiniMax sits in the sweet spot between affordable and capable, making it an exce
 - See [Phase 0 tool selection](../workflow/phase-0-vibecoder-preparation.md) for upgrade timing
 
 **Integration Setup:**
-- [Claude Code CLI](../development-tools/recommended-tools/claude-code-cli.md) — Primary integration
-- [TRAE](../development-tools/recommended-tools/trae.md) — Alternative IDE integration
-- [Context7 MCP](../development-tools/mcp-servers/context7-mcp.md) — Documentation access
+- [Claude Code CLI](../coding-agents/claude-code-cli.md) — Primary integration
+- [TRAE](../ide/trae.md) — Alternative IDE integration
+- [Context7 MCP](../mcp-servers/context7-mcp.md) — Documentation access
 
 **Workflow Phases by Usage:**
 

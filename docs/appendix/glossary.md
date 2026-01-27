@@ -47,15 +47,15 @@ A comprehensive reference guide for all technical terms, concepts, and acronyms 
 **AmpCode**: An alternative AI coding assistant CLI tool with a free tier, offering MCP server support and active development.
 
 **Claude Code**: Anthropic's official CLI tool for AI-assisted coding, integrated with Claude's language model capabilities.
-→ [Learn more: Development Tools](development-tools/README.md)
+→ [Learn more: Development Tools](../06-tooling/README.md)
 
 **CLI (Command-Line Interface)**: A text-based interface where you type commands to interact with software, as opposed to clicking buttons in a graphical interface.
 
 **Cursor**: An AI-powered code editor (IDE) with built-in AI assistance and support for external AI models.
-→ [Learn more: Development Tools](development-tools/README.md)
+→ [Learn more: Development Tools](../06-tooling/README.md)
 
 **Droid CLI**: A command-line coding agent with autonomous planning capabilities, permission management, and Bring Your Own Key support.
-→ [Learn more: Droid CLI Guide](development-tools/recommended-tools/droid-cli.md)
+→ [Learn more: Droid CLI Guide](../06-tooling/coding-agents/droid-cli.md)
 
 **Gemini CLI**: Google's command-line interface for accessing Gemini AI models, offering a generous free tier for development work.
 
@@ -68,13 +68,13 @@ A comprehensive reference guide for all technical terms, concepts, and acronyms 
 **IDE (Integrated Development Environment)**: A software application that provides comprehensive tools for writing, testing, and debugging code all in one place.
 
 **Clavix**: An open-source prompt engineering framework using the CLEAR methodology (Concise, Logical, Explicit, Adaptive, Reflective) to transform rough ideas into polished prompts, complete PRDs, and ready-to-implement task lists.
-→ [Learn more: Clavix Guide](development-tools/recommended-tools/clavix.md)
+→ [Learn more: Clavix Guide](../06-tooling/recommended-tools/clavix.md)
 
-**OpenSpec**: A specification framework tool that transforms plain language descriptions into comprehensive project plans (moved to honorable mentions, replaced by Clavix).
-→ [Learn more: OpenSpec Guide](development-tools/honorable-mentions/openspec-cli.md)
+**OpenSpec**: A specification framework tool that transforms plain language descriptions into comprehensive project plans. *Note: Replaced by Clavix in the author's workflow.*
+→ See: [Clavix Guide](../06-tooling/recommended-tools/clavix.md)
 
 **Qwen CLI**: Alibaba's free, open-source coding assistant CLI that provides local or cloud-based AI assistance for development.
-→ [Learn more: Development Tools](development-tools/README.md)
+→ [Learn more: Development Tools](../06-tooling/README.md)
 
 **Terminal**: A text-based interface for interacting with your computer's operating system by typing commands.
 
@@ -87,35 +87,35 @@ A comprehensive reference guide for all technical terms, concepts, and acronyms 
 **Warp**: A modern, GPU-accelerated terminal emulator with AI-powered command assistance and personalization options.
 
 **Windsurf**: An AI-enhanced code editor with the Cascade agent and advanced context management features.
-→ [Learn more: Windsurf Guide](development-tools/recommended-tools/windsurf.md)
+→ [Learn more: Windsurf Guide](../06-tooling/ide/windsurf.md)
 
 **Zed**: A fast, AI-first code editor built specifically for AI-assisted development with minimal resource usage and native AI integration.
-→ [Learn more: Zed Guide](development-tools/recommended-tools/zed.md)
+→ [Learn more: Zed Guide](../06-tooling/ide/zed.md)
 
 ---
 
 ## MCP (Model Context Protocol)
 
 **Context7 MCP**: An MCP server that provides access to framework documentation and technical knowledge, helping AI assistants resolve issues by retrieving relevant documentation.
-→ [Learn more: Context7 MCP](development-tools/mcp-servers/context7-mcp.md)
+→ [Learn more: Context7 MCP](../06-tooling/mcp-servers/context7-mcp.md)
 
 **DevTools MCP**: An MCP server for browser automation and testing, enabling AI agents to automatically navigate websites, collect errors, and debug frontend issues using Chrome DevTools.
-→ [Learn more: DevTools MCP](development-tools/mcp-servers/devtools-mcp.md)
+→ [Learn more: DevTools MCP](../06-tooling/mcp-servers/devtools-mcp.md)
 
 **MCP (Model Context Protocol)**: A standard protocol that allows AI assistants to connect to external data sources and tools, extending their capabilities beyond their built-in knowledge.
-→ [Learn more: MCP Servers](development-tools/mcp-servers/README.md)
+→ [Learn more: MCP Servers](../06-tooling/mcp-servers/README.md)
 
 **MCP Server**: A service that implements the Model Context Protocol, providing AI assistants with access to specific external resources like documentation, databases, or development tools.
-→ [Learn more: MCP Servers](development-tools/mcp-servers/README.md)
+→ [Learn more: MCP Servers](../06-tooling/mcp-servers/README.md)
 
 **Sequential Thinking MCP**: An MCP server that forces AI assistants to think through problems systematically in structured steps before providing solutions, improving debugging quality and preventing impulsive decisions.
-→ [Learn more: Sequential Thinking MCP](development-tools/mcp-servers/sequential-thinking-mcp.md)
+→ [Learn more: Sequential Thinking MCP](../06-tooling/mcp-servers/sequential-thinking-mcp.md)
 
 **Shadcn MCP**: An MCP server that enables AI assistants to browse, search, and install professional UI components from the shadcn/ui library.
-→ [Learn more: Shadcn MCP](development-tools/mcp-servers/shadcn-mcp.md)
+→ [Learn more: Shadcn MCP](../06-tooling/mcp-servers/shadcn-mcp.md)
 
 **Task Manager MCP**: An MCP server that maintains task lists across different AI conversation sessions, ensuring development context is preserved and tasks require approval before completion.
-→ [Learn more: Task Manager MCP](development-tools/mcp-servers/task-manager-mcp.md)
+→ [Learn more: Task Manager MCP](../06-tooling/mcp-servers/task-manager-mcp.md)
 
 ---
 
@@ -158,13 +158,13 @@ A comprehensive reference guide for all technical terms, concepts, and acronyms 
 ## AI Model Providers
 
 **Factory AI**: An AI platform offering competitive token pricing with advanced caching, providing access to models like GPT-5-high and codex at reduced costs through the Droid CLI tool.
-→ [Learn more: AI Model Providers](ai-model-providers/README.md)
+→ [Learn more: AI Providers](../06-tooling/providers/README.md)
 
 **GLM (GLM Coding Plan)**: A cost-effective AI model provider offering state-of-the-art open-source models with generous usage limits, serving as the author's main LLM for development work.
-→ [Learn more: GLM Coding Plan](ai-model-providers/glm-coding-plan.md)
+→ [Learn more: GLM Coding Plan](../06-tooling/providers/glm-coding-plan.md)
 
 **Synthetic.new**: A privacy-first AI model provider offering access to 20+ frontier open-source models with competitive pricing and high rate limits, emphasizing code privacy and fast performance.
-→ [Learn more: AI Model Providers](ai-model-providers/README.md)
+→ [Learn more: Synthetic.new](../06-tooling/providers/synthetic-new.md)
 
 ---
 

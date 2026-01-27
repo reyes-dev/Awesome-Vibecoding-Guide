@@ -54,8 +54,11 @@ Enhanced AI capabilities:
 
 | Monthly Budget | Recommendation |
 |----------------|----------------|
-| **$10-20** | Synthetic Standard or MiniMax Starter |
+| **$0-10** | Free tools (Qwen CLI) or GLM Lite ($3/mo) |
+| **$10-20** | Synthetic Standard ($20/mo) - RECOMMENDED |
 | **$20-40** | Synthetic Pro or MiniMax Plus |
 | **$40-60** | Synthetic Pro + MiniMax backup |
+
+**Key insight:** $0-20/month is the optimal ROI range. Premium tiers ($40+) are for experimentation only.
 
 See [Choosing Your Provider](providers/choosing-provider.md) for detailed comparison.

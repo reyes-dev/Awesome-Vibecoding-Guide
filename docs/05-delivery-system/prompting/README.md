@@ -332,7 +332,7 @@ Quality improved: First output is production-ready
 **→ Solution 2 (Spec-Driven):** Use structured specifications
 
 **Fix:**
-1. Generate specs with [OpenSpec](../development-tools/recommended-tools/openspec-cli.md)
+1. Generate specs with [Clavix](../../06-tooling/prd-generation/clavix.md)
 2. Break feature into phases and tasks automatically
 3. Prompt AI for each phase individually with clear context
 4. **Best for:** Projects with 10+ features or complex multi-component systems
@@ -355,16 +355,16 @@ Quality improved: First output is production-ready
 │  Bug fix               → Prompts only        │
 │  Small feature (1-5h)  → Prompts + templates │
 │  Medium feature (5-20h)→ Prompts + multi-step│
-│  Large project (20h+)  → OpenSpec + prompts  │
-│  Team collaboration    → OpenSpec required   │
+│  Large project (20h+)  → Clavix + prompts    │
+│  Team collaboration    → Clavix required     │
 └──────────────────────────────────────────────┘
 ```
 
 ### The Spec-Driven Workflow
 
-**When you use [OpenSpec](../development-tools/recommended-tools/openspec-cli.md):**
+**When you use [Clavix](../../06-tooling/prd-generation/clavix.md):**
 
-1. **Planning Phase:** OpenSpec transforms your PRD into structured specifications
+1. **Planning Phase:** Clavix transforms your PRD into structured specifications
    - Generates phased implementation plan
    - Creates task breakdowns
    - Documents architecture decisions
@@ -411,7 +411,7 @@ Before sending any prompt, verify:
 │  Complex scenario       → Advanced         │
 │  Client project         → Quality-Focused  │
 │  Prevent vibe coding    → Quality-Focused  │
-│  Large project planning → OpenSpec + Prompts│
+│  Large project planning → Clavix + Prompts  │
 │  Debugging prompt issue → Foundations      │
 │  Optimizing workflow    → Advanced         │
 └────────────────────────────────────────────┘
@@ -499,12 +499,12 @@ Your Task:
 - Best for: Quick features, 1-5 tasks, solo development
 
 **Approach 2: Spec-Driven (Large Projects) ⭐**
-- Use [OpenSpec](../development-tools/recommended-tools/openspec-cli.md) to transform PRDs into structured specifications
-- OpenSpec breaks features into phases and generates markdown documentation
+- Use [Clavix](../../06-tooling/prd-generation/clavix.md) to transform PRDs into structured specifications
+- Clavix breaks features into phases and generates markdown documentation
 - Then apply prompting templates to implement each phase
 - Best for: Complex features, 10+ tasks, team projects
 
-**The Robust Combination:** OpenSpec provides structure → Prompts ensure quality implementation
+**The Robust Combination:** Clavix provides structure → Prompts ensure quality implementation
 
 ### Phase 2: Development
 - Apply [Feature Implementation Patterns](./task-specific-patterns.md#feature-implementation)
@@ -537,11 +537,11 @@ Your Task:
 - [Development Workflow](../workflow/README.md) → Integrating prompts into workflow
 
 **Tool-specific guidance:**
-- [Development Tools](../development-tools/README.md) → IDE/CLI setup
-- [AI Model Providers](../ai-model-providers/README.md) → Choosing the right model
+- [Tooling](../../06-tooling/README.md) → IDE/CLI setup
+- [AI Providers](../../06-tooling/providers/README.md) → Choosing the right model
 
 **Specification-Driven Development:**
-- [OpenSpec CLI](../development-tools/recommended-tools/openspec-cli.md) → Transform PRDs into structured project plans with phased implementation
+- [Clavix](../../06-tooling/prd-generation/clavix.md) → Transform PRDs into structured project plans with phased implementation
 - Combines with this prompting guide for super robust vibecoding workflow
 
 ---

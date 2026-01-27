@@ -103,7 +103,7 @@
 | **Droid CLI** | Act mode fails | Review plan clarity | [Act Issues](#droid-act-mode-failures) |
 | **MCP DevTools** | Can't connect | Check browser state | [DevTools Connection](#devtools-mcp-connection-issues) |
 | **MCP Context7** | Wrong docs returned | Specify query better | [Context7 Queries](#context7-mcp-issues) |
-| **OpenSpec** | Poor spec quality | Provide more detail | [Spec Generation](#openspec-quality-issues) |
+| **Clavix** | Poor spec quality | Provide more detail | [Spec Generation](#clavix-quality-issues) |
 | **Git Integration** | Commit failures | Check permissions | [Git Problems](#git-integration-issues) |
 
 ---
@@ -1568,6 +1568,6 @@ When stuck, go through this systematically:
 - [Prompting Guide](../prompting/README.md) → Improve prompt quality
 - [Context Management](../context-management/README.md) → Manage AI context
 - [Development Workflow](../workflow/README.md) → Integrated workflow
-- [Development Tools](../development-tools/README.md) → Tool setup and usage
+- [Development Tools](../../06-tooling/README.md) → Tool setup and usage
 
 **Back to:** [Main Guide](../../README.md)

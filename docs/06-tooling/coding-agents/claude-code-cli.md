@@ -160,7 +160,7 @@ For most vibecoding workflows, Claude Code CLI gets the job done faster and more
 
 **Related:**
 - [Droid CLI](./droid-cli.md) — For spec-driven development
-- [GLM Coding Plan](../../ai-model-providers/glm-coding-plan.md) — Primary provider
-- [Synthetic.new](../../ai-model-providers/synthetic-new.md) — For model flexibility
+- [GLM Coding Plan](../providers/glm-coding-plan.md) — Primary provider
+- [Synthetic.new](../providers/synthetic-new.md) — For model flexibility
 
 Back: [Development Tools](../README.md)
